@@ -37,3 +37,5 @@ class Boleta:
         else:
             info += "Sin dueño asignado"
         return info
+    
+boleta1=Boleta(555, 444, 444, "Cristian")

@@ -7,7 +7,7 @@ class generar_Reporte:
         self._alerta = AlertaBoleta
     
     @property
-    def get_Reporte(self,):
+    def get_Reporte(self):
         reporte = f"Ingreso de la persona: {self._ingreso}, hora y fecha de ingreso: {self._fecha} y cuantos asistentes ingresaron: {self._numeroAsistentes}"
         return reporte
     
